@@ -60,6 +60,9 @@
         if($_GET['opcion']=='log_con'){
             include('controlador/contra_log.php');
         }
+        if($_GET['opcion']=='log_form'){
+            include('controlador');
+        }
     }
     
       

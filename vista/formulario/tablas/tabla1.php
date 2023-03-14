@@ -62,23 +62,23 @@ include('vista/formulario/menu_form/menu_form.php');
   <!--formulario-->
   <br><br><br>
  
-  <form action=""  method="post">
+  <form action="?option=log_form"  method="POST">
   <div class="row g-2">
   <div class="col-md">
   <div class="col">
-    <input type="text" class="form-control" placeholder="Nombre y apellido" aria-label="Nombre y apellido">
+    <input type="text" class="form-control" placeholder="Nombre y apellido" aria-label="Nombre y apellido" name="nam_t1" >
   </div>
   </div>
   <div class="col">
-    <input type="number" class="form-control" placeholder="Edad" aria-label="Edad">
+    <input type="number" class="form-control" placeholder="Edad" aria-label="Edad" name="eda_t1">
   </div>
   <div class="col">
-    <input type="text" class="form-control" placeholder="Estado medico" aria-label="Estado medico">
+    <input type="text" class="form-control" placeholder="Estado medico" aria-label="Estado medico" name="esta_t1">
   </div>
   <div class="col-md">
     <div class="form-floating">
       <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
-      <label for="floatingInputGrid">Email address</label>
+      <label for="floatingInputGrid" name="emm">Email address</label>
     </div>
   </div>
   <div class="col-md">
@@ -89,11 +89,11 @@ include('vista/formulario/menu_form/menu_form.php');
         <option value="2">Servicio al cliente</option>
         <option value="3">Etc</option>
       </select>
-      <label for="floatingSelectGrid">Elegir el cargo</label>
+      <label for="floatingSelectGrid" name="area_t1">Elegir el cargo</label>
       
     </div>
   </div>
-  <input class="botons" type="submit" value="Registrar">
+  <input class="botons" type="submit" value="Registrar" name="bton">
 </div>
   </form>
 

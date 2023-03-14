@@ -1,7 +1,7 @@
 <?php
 include('vista/formulario/menu_form/menu_form.php');
 ?>
-<br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br> <br><br><br><br>
+<br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br>
 <div class="mys">
 <img src="imagenes/base_mysql.jpeg" class="img-fluid imgm" alt="...">
 <img src="imagenes/base_mysql1.jpeg" class="img-fluid imgm" alt="...">
